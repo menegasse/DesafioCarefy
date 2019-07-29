@@ -10,6 +10,7 @@
     	"phpmailer/phpmailer":"5.2.22",
     	"slim/slim":"2.0", 
     	"rain/raintpl":"3.0.0"
+         "php": "^7.3.4"
     },
     "autoload": {
         "psr-4": {
