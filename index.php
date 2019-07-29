@@ -5,7 +5,6 @@ session_start();
 #Rotas das páginas
 
 require_once("vendor/autoload.php");
-require_once("vendor/slim/slim/.htaccess");
 
 use \Slim\Slim;
 use \Carefy\Page;
