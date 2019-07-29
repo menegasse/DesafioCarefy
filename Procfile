@@ -1,1 +1,1 @@
-web:php -S localhost:$PORT
+$(composer config bin-dir)/heroku-php-apache2 public/
