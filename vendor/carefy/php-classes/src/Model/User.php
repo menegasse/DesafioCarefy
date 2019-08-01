@@ -14,7 +14,7 @@ class User extends Model
 	const  SECRET_IV  =  "CarefyPhp7_Secret_IV" ;
 
 	//realiza o login do usuário no sistema 
-	public function login($login,$password)
+	public static function login($login,$password)
 	{
 		$sql = new Sql();
 
